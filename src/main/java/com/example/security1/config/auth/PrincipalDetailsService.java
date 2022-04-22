@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PrincipalDetailsService implements UserDetailsService {
 
-
     @Autowired
     UserRepository userRepository;
     // 함수 종료시 @AuthenticationPrincipal 어노테이션이 만들어진다
